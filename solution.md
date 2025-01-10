@@ -49,3 +49,9 @@ Attentive readers may notice that the piece at address 0 is unused in calculatio
 Importantly, this game doesn't require an 8x8 board; it merely requires the total number of pieces to be a power of 2.
 
 > This solution draws on memory error correction algorithms, specifically Hamming code.
+
+## Practice
+
+The solution mentioned above is from the perspective of Hamming code. In actual implementation, it can be simplified a little bit, and there is no need to consider where the check position is. It only needs to calculate 6 sets of parity.
+
+[click here to see image demo](https://caoqiming.github.io/doc/encoding_schemes/gem_puzzle.html)
